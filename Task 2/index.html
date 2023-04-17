@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List App</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <p>Student Registration</p>
+            <br>
+            <div>
+                <div class="input-box">
+                    <label>Full Name: </label><br/>
+                    <input type="text" name="name" id="fname" placeholder="Enter your name">
+                    <br/>
+                    <br/>
+                    <label>Email: </label><br/>
+                    <input type="text" name="email" id="mail" placeholder="Enter your email">
+                    <br>
+                    <br/>
+                    <label>Age: </label><br/>
+                    <input type="text" name="age1" id="age" placeholder="Enter your age">
+                    <br>
+                    <br/>
+                    <label>Phone Number: </label>
+                    <input type="number" name="mob" id="mobno" placeholder="Enter your phone number">
+                </div>
+                <br/>
+                <div class="btn">
+                    <button id="show">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <p>Student Information</p>
+            <table id="stu-info">
+                <thead>
+                    <tr>
+                        <th width="300px">Full Name</th>
+                        <th width="300px">Email</th>
+                        <th>Age</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
