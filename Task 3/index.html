@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calci">
+            <div class="output">
+                <input type="text" placeholder="0" id="input">
+            </div>
+            <div class="controls">
+                <input type="button" onclick="clr()" value="C" id="clear">
+                <input type="button" onclick="erase()" value="DEL" id="delete">
+                <input type="button" onclick="calculate('%')" value="%" class="operation-btn">
+                <input type="button" onclick="calculate('/')" value="/" class="operation-btn">
+
+                <input type="button" onclick="calculate(7)" value="7" class="operation-btn">
+                <input type="button" onclick="calculate(8)" value="8" class="operation-btn">
+                <input type="button" onclick="calculate(9)" value="9" class="operation-btn">
+                <input type="button" onclick="calculate('*')" value="*" class="operation-btn">
+
+                <input type="button" onclick="calculate(4)" value="4" class="operation-btn">
+                <input type="button" onclick="calculate(5)" value="5" class="operation-btn">
+                <input type="button" onclick="calculate(6)" value="6" class="operation-btn">
+                <input type="button" onclick="calculate('-')" value="-" class="operation-btn">
+
+                <input type="button" onclick="calculate(1)" value="1" class="operation-btn">
+                <input type="button" onclick="calculate(2)" value="2" class="operation-btn">
+                <input type="button" onclick="calculate(3)" value="3" class="operation-btn">
+                <input type="button" onclick="calculate('+')" value="+" class="operation-btn">
+                
+                <input type="button" onclick="calculate(0)" value="0" class="operation-btn">
+                <input type="button" onclick="calculate('.')" value="." class="operation-btn">
+                <hr><input type="button" onclick="result()"  value="=" id="equal">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
